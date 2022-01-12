@@ -1,0 +1,8 @@
+export const logo = '.header__logo'
+export const userProfile = '.header__user-profile-icon'
+export const logoutButton = '.base-button__btn--base-state'
+export const showSearchButton = '.general-tree__search-show'
+export const searchButton = ' Найти '
+export const searchForm = '.general-search__form'
+export const createReportButton = '.general-tree__excel-report'
+export const downloadExelReportButton = '.base-button__btn--base-state'
