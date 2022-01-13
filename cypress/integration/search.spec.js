@@ -5,7 +5,6 @@ import { BasePage } from '../page-objects/BasePage'
 
 describe('Visability of search form', () => {
 	before(function () {
-		cy.visit('/')
 		BasePage.loginAPI(login_username, login_password)
 		cy.url().should('include', 'general')
 	})
