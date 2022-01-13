@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://alpha.unic-lab.by/auth/login",
+	"baseUrl": "https://alpha.unic-lab.by",
 	"watchForFilesChanges": false,
 	"chromeWebSecurity": false,
 	"viewportWidth": 1000,

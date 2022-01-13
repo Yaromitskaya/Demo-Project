@@ -29,6 +29,6 @@ export class BasePage {
 				localStorage.setItem('refreshToken', body.refreshToken)
 			})
 
-		cy.visit('/' + 'general')
+		
 	}
 }

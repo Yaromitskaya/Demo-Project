@@ -29,6 +29,7 @@ describe('Various types of login', () => {
 
 	it('should login by means of API request', () => {
 		BasePage.loginAPI(login_username, login_password)
+		cy.visit('/' + 'general')
 		cy.url().should('include', 'general')
 	})
 })

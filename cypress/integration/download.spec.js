@@ -4,8 +4,8 @@ import { BasePage } from '../page-objects/BasePage'
 
 describe('Download a report', () => {
 	before(function () {
-		cy.visit('/')
 		BasePage.loginAPI(login_username, login_password)
+		cy.visit('/' + 'general')
 	})
 
 	it('should download a report to computer', () => {
