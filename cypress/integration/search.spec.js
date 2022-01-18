@@ -2,10 +2,11 @@ import { searchForm } from '../page-objects/GeneralPage/MainPageComponents'
 import { login_username, login_password } from '../../config'
 import { MainPage } from '../page-objects/GeneralPage/MainPage'
 import { BasePage } from '../page-objects/BasePage'
+import { ServicePage } from '../page-objects/ServicePage'
 
 describe('Visability of search form', () => {
 	before(function () {
-		BasePage.loginAPI(login_username, login_password)
+		ServicePage.loginAPI(login_username, login_password)
 	})
 	it('search form open/close test', () => {
 		cy.visit('/' + 'general')
@@ -18,7 +19,7 @@ describe('Visability of search form', () => {
 
 describe('Website navigation', () => {
 	beforeEach(function () {
-		BasePage.loginAPI(login_username, login_password)
+		ServicePage.loginAPI(login_username, login_password)
 	})
 	it('should navigate to profile page', () => {
 		cy.visit('/' + 'profile')

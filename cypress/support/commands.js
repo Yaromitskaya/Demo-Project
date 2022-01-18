@@ -27,16 +27,6 @@
 import { addMatchImageSnapshotCommand } from 'cypress-image-snapshot/command'
 addMatchImageSnapshotCommand()
 
-Cypress.Commands.add(
-	'login',
-	(selector1, selector2, selector3, username, password) => {
-		cy.clearCookies()
-		cy.get(selector1).type(username)
-		cy.get(selector2).type(password)
-		cy.get(selector3).click()
-	}
-)
-
 require('cy-verify-downloads').addCustomCommand()
 
 import 'cypress-localstorage-commands'

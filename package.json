@@ -16,6 +16,7 @@
     "cy-verify-downloads": "^0.0.5",
     "cypress": "^9.2.0",
     "cypress-image-snapshot": "^4.0.1",
+    "mochawesome": "^7.0.1",
     "prettier": "^2.5.1"
   },
   "devDependencies": {

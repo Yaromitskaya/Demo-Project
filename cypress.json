@@ -1,5 +1,9 @@
 {
 	"baseUrl": "https://alpha.unic-lab.by",
+	"env": {
+		"LOGIN_URL": "https://alpha.unic-lab.by/api/auth/v1/login"
+	},
+
 	"watchForFilesChanges": false,
 	"chromeWebSecurity": false,
 	"viewportWidth": 1000,
@@ -11,7 +15,14 @@
 	"pageLoadTimeout": 60000,
 	"requestTimeout": 15000,
 	"responceTimeout": 15000,
-	"video": true,
+	"video": false,
 	"failOnStatusCode": false,
-	"projectId": "n58oa4"
+	"projectId": "n58oa4",
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"reportDir": "cypress/reports",
+		"overwrite": true,
+		"html": true,
+		"json": false
+	}
 }
