@@ -13,7 +13,6 @@ Provide all commonly required components and concepts.
 
 ## Tools
 
-* Cucumber
 * Cypress
 * Jenkins
 
