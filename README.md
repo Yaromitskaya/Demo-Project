@@ -23,7 +23,8 @@ The following steps should get you set up for running Cypress tests locally on y
 
 1. Clone this repository to your local machine.
 2. Open tests in your IDE.
-3. Install dependencies (npm install).
+3. Install dependencies.
+`npm install`
 
 ## Reporting
 
