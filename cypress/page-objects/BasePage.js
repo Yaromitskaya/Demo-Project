@@ -5,8 +5,6 @@ import {
 
 export class BasePage {
 	static reportDowload() {
-		cy.get(createReportButton).click()
-
 		cy.task('downloads', 'cypress/downloads').then(before => {
 			cy.get(downloadExelReportButton).click()
 			cy.wait(5000)

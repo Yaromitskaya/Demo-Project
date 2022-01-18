@@ -28,3 +28,19 @@ describe('Various types of login', () => {
 		cy.url().should('include', 'general')
 	})
 })
+
+//This test is made to demonstrate login to application using data from fixtures
+describe('Login with Fixtures Data ', () => {
+	before(function () {
+		cy.visit('/')
+	})
+	after(function () {
+		MainPage.logout()
+	})
+	it('should login with fixtures data', () => {
+		cy.fixture('user').then(user => {
+			LoginPage.login(user.loginUsername, user.loginPassword)
+			cy.url().should('include', 'general')
+		})
+	})
+})
