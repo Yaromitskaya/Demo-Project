@@ -1,5 +1,5 @@
 # Demo-Project
-Cypress project for test automation, covering UI ans API testing.
+Cypress project for test automation, covering UI and API testing.
 This repository contains Cypress tests for the [NERO](https://alpha.unic-lab.by/) application.
 Provide all commonly required components and concepts.
 
