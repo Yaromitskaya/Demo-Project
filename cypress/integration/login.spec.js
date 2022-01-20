@@ -1,13 +1,8 @@
 import { LoginPage } from '../page-objects/LoginPage/LoginPage'
 import { login_username, login_password } from '../../config'
 import { MainPage } from '../page-objects/GeneralPage/MainPage'
-import { BasePage } from '../page-objects/BasePage'
 import { ServicePage } from '../page-objects/ServicePage'
-import {
-	loginField,
-	passwordField,
-	buttonEnter,
-} from '../page-objects/LoginPage/LoginPageComponents'
+
 
 describe('Various types of login', () => {
 	before(function () {
