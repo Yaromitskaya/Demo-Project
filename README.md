@@ -9,7 +9,6 @@ Provide all commonly required components and concepts.
 * Dependency injection
 * Common web page interaction methods
 * Common api interaction methods
-* Externalised test configuration
 
 ## Tools
 
